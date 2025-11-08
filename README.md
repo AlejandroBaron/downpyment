@@ -20,10 +20,10 @@ from downpyment.reporting import MortgageReport
 
 
 mortgage = Mortgage(
-    property_price=450_000,
+    property_price=300_000,
     interest=Interest(rate=1.85, scale=YEARLY_INTEREST_SCALE, perc=True),
     n_steps=30,
-    downpayment=0,
+    downpayment=30_000,
     tax_perc=8,
 )
 mortgage.simulate()
