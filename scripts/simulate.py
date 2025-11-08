@@ -1,5 +1,7 @@
 # %%
-from downpyment.mortgage import Mortgage, Interest, YEARLY_INTEREST_SCALE, Investment
+from downpyment.mortgage import Mortgage
+from downpyment.interest import Interest, YEARLY_INTEREST_SCALE
+from downpyment.investment import Investment
 from downpyment.reporting import MortgageReport
 
 
