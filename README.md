@@ -49,12 +49,12 @@ MortgageReport(mortgage).report(ep_params=ep_params, inflation_p=2.0, investment
 This will generate a report like this one:
 
 # Mortgage simulation with early payments
-![Mortgage simulation](mortgage_simulation.png)
-![Mortgage simulation with inflation](mortgage_simulation_inflation.png)
+![Mortgage simulation](docs/mortgage_simulation.png)
+![Mortgage simulation with inflation](docs/mortgage_simulation_inflation.png)
 
 # Mortgage vs investment curves
-![Mortgage vs investment](mortgage_vs_investment.png)
-![Mortgage vs investment with inflation](mortgage_vs_investment_inflation.png)
+![Mortgage vs investment](docs/mortgage_vs_investment.png)
+![Mortgage vs investment with inflation](docs/mortgage_vs_investment_inflation.png)
 
 
 Check the `scripts/simulate.py` file for a complete example.
