@@ -1,4 +1,9 @@
-from downpyment.mortgage import Mortgage, EarlyPayment, MortgageSimulation, Investment
+from downpyment.mortgage.mortgage import (
+    Mortgage,
+    EarlyPayment,
+    MortgageSimulation,
+    Investment,
+)
 from matplotlib import pyplot as plt
 from typing import Optional
 import numpy as np
