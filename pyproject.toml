@@ -1,0 +1,14 @@
+[project]
+name = "downpyment"
+version = "0.1.0"
+description = "Utilities for mortgage analysis and visualization"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.7",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.3.0",
+]
